@@ -1,6 +1,6 @@
 :root{
     --colorReddish: rgb(255,50,75);
-    --colorDarkGray: rgb(36,36,36);
+    --colorDarkGray: rgb(22, 22, 22);
     --colorBlack: rgb(10,10,10);
     --colorWhite: rgb(255,255,255);
 }
@@ -77,6 +77,37 @@ header #btncarrinho img{
     filter: brightness(50%);
 }
 
+/* BODY */
+#content h3{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#content h2{
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+#content #cardholder1{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 30px;
+    gap: 30px
+}
+
+#content .cardsimple{
+    background-color: var(--colorDarkGray);
+
+    height: 300px;
+    width: 250px;
+}
+#content .cardsimple p{
+    text-align: center;
+}
+
+.imgcard{
+    height: 20px;
+    width: 20px;
+}
 /* FOOTER */
 footer{
 
