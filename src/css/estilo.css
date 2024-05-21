@@ -1,0 +1,59 @@
+:root{
+    --colorReddish: rgb(255,50,75);
+    --colorDarkGray: rgb(36,36,36);
+    --colorBlack: rgb(10,10,10);
+    --colorWhite: rgb(255,255,255);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+/* HEADER */
+header{
+     width: 100%;
+     background-color: var(--colorReddish);
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 15px;
+
+     color: var(--colorWhite);
+}
+header .nav-menu li a{
+    color: var(--colorWhite);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+header .nav-menu{
+    display: flex;
+    gap: 20px;
+}
+header #btncarrinho{
+    background-color: var(--colorBlack);
+    border-radius: 5px;
+    border: none;
+    height: 1.5rem;
+    width: 3rem;
+}
+header #btncarrinho img{
+    filter: invert();
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+/* BANNER */
+#imgbanner{
+    max-height: 0;
+}
+
+/* FOOTER */
+footer{
+
+}
